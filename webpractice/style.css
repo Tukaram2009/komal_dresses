@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* section-1 */
+
+.section-1{
+    height: 580px;
+
+}
+
+/* navbar */
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 100%;
+    
+}
+nav{
+    background-color: rgb(0, 140, 255);
+}
+
+.links{display: flex;}
+
+
+nav li{
+    list-style: none;
+    padding: 0px 50px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight:90;
+    font-family: "Outfit", sans-serif;
+}
+
+nav img{
+    width: 50px;
+    margin: 10px;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.imagecontainer{
+    position:relative;
+    width: 100%;
+    height: 500px;
+}
+
+
+.imagecontainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+/* headercontent */
+
+.headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headercontent{
+    position: relative;
+    top: -380px;
+    /* left: 200px; */
+    color: white;
+}
+
+
+.headercontent h1{
+   font-size: 15vh;
+   color: rgb(255, 255, 255);
+   font-family: "Bree Serif", serif;
+   text-shadow: 5px 5px  rgba(159, 149, 149, 0.349) ;
+   -webkit-text-stroke: 0.1px white;
+   
+    
+}
+.headercontent p{
+    font-size: 3vh;
+ }
+.headercontent button{
+    font-size: 5vh;
+    margin: 50px;
+    padding: 10px 60px;
+    border: 0px solid white;
+    border-radius: 40px;
+    background-color: rgb(255, 42, 0);
+    color: white;
+    box-shadow: 10px 10px rgba(194, 194, 194, 0.195);
+ }
+
+/* section-2 */
+
+.section-2 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 100;
+    color: white;
+    -webkit-text-stroke: 3px rgb(59, 9, 106);
+    background-color: blueviolet;
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+
+}
+.products div img{
+    display: flex;
+    width: 270px;
+    margin: 50px;
+    padding: 3px;
+    border: 3px solid grey;
+    border-radius: 50px;
+    
+   
+   
+    
+}
+.products div p{
+    width: 270px;
+    margin: 40px;
+    padding: 10px;
+    border: 3px solid grey;
+    border-radius: 50px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .section-3 */
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 76, 129);
+    padding: 50px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-family: Geneva, Verdana, sans-serif;;
+}

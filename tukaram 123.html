@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<!-- style -->
+    <style>
+        body{background-image: url(https://t4.ftcdn.net/jpg/06/45/83/07/360_F_645830782_M553WbwU6YGhIfRrIV39yo3feZcBVSSU.jpg);background-repeat: no-repeat  ;background-size: cover;font-family: "Radio Canada Big", sans-serif;}
+        .header{background-color: rgb(0, 0, 0);padding-top:3px ;padding-bottom: 3px;}
+
+.left{display: inline-block;
+            ;
+            position: absolute  ;
+            left: 24px;
+            top: 20px;
+            color: white;
+.
+        }
+.left img{width: 50px;padding-left: 20px;
+            filter: invert(100%); 
+            ;
+                  
+}
+.center{display: block;
+            width: 60%;
+            margin: 20px auto;
+            font-size: 30px;
+            padding-left: 10px;
+            
+            
+        }
+.right{display: inline-block;
+            position: absolute  ;
+            right: 24px;
+            top: 35px;
+            
+        }
+nav li{display: inline-block;}
+        nav li a{color: white;
+        text-decoration: none;padding-left: 15px;}
+
+nav li a:hover,nav li a.active{color: rgb(99, 99, 99);
+            text-decoration: underline;}
+
+.btn{margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.btn:hover{background-color: rgb(114, 114, 114);}
+.container{color: white;
+    padding: 75px;
+    margin: 106px 80px;
+    border: 5px solid rgb(255, 255, 255);
+    width:40%;
+    border-radius: 35px;
+}
+.formgroup input{display: block;
+        text-align: center;
+        width: 500px;
+        padding: 10px 4px;
+        border-radius: 10px;
+        margin: 10px auto;
+        font-size: 20px;
+        border: 2px solid black;
+}
+h1{text-align: center;
+font-size: 40px;display: block;}
+
+.container button{display: block;
+          text-align: center;
+        width: 500px;
+        padding: 10px 4px;
+        border-radius: 10px;
+        margin: 30px auto;
+        font-size: 20px;
+    font-family:"Radio Canada Big", sans-serif ;}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvBm93rqEHNDZr96C0VZBrtj07yg-ra3Bm0Q&s" alt="">
+                <div>Aditya's gym</div>
+            </div>
+            <div class="center">
+                <nav>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness calculator</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </nav>
+            </div>
+            <div class="right">
+                <button class="btn">Call us now</button>
+                <button class="btn">E-mail us</button>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Join the best Gym of ulhasnagar</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+                <input type="text" name="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your Email">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
